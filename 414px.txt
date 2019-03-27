@@ -1,0 +1,240 @@
+ @media  (min-width: 414px){
+   #t3{
+     height:100px;
+   }
+   .button-1{
+     top:55%;
+     left: 43%;
+     width:200px;
+     height:70px;
+     border:2px solid #FE474B;
+     float:left;
+     text-align:center;
+     cursor:pointer;
+     position:relative;
+     box-sizing:border-box;
+     overflow:hidden;
+     margin:0 0 40px 0;
+   }
+
+   .button-1 a{
+     font-weight: bold;
+     font-family:arial;
+     font-size:1.3em;
+     color:#FE474B;
+     text-decoration:none;
+     line-height:70px;
+     transition:all .5s ease;
+     z-index:2;
+     position:relative;
+   }
+   .eff-1{
+     width:200px;
+     height:70px;
+     top:-2px;
+     right:-200px;
+     background:#FE474B;
+     position:absolute;
+     transition:all .3s ease;
+     z-index:1;
+   }
+   .button-1:hover .eff-1{
+     right:0;
+   }
+   .button-1:hover a{
+     color:#fff;
+   }
+
+   .btn-1::after {
+     height: 0;
+     left: 0;
+     top: 0;
+     width: 100%;
+   }
+
+   .btn-1:hover:after {
+     height: 100%;
+   }
+
+}
+
+@media  screen and (min-width: 320px) and (max-width:360px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    width: 100%;
+  }
+  #t1{
+    height: 300px;
+  }
+  #t2{
+    height: 310px;
+  }
+  #t3{
+    height: 360px;
+  }
+  .button-1{
+    top:31%;
+    left: 37%;
+    width:100px;
+    height:25px;
+    border:2px solid #FE474B;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 0 40px 0;
+  }
+
+  .button-1 a{
+    font-weight: bold;
+    font-family:arial;
+    font-size:0.8em;
+    color:#FE474B;
+    text-decoration:none;
+     line-height:5px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-1{
+    width:100px;
+    height:25px;
+    top:-2px;
+    right:-200px;
+    background:#FE474B;
+    position:absolute;
+    transition:all .3s ease;
+    z-index:1;
+  }
+  .button-1:hover .eff-1{
+    right:0;
+  }
+  .button-1:hover a{
+    color:#fff;
+  }
+
+  .btn-1::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .btn-1:hover:after {
+    height: 100%;
+  }
+  #t4{
+
+    height: 380px;
+  }
+  #t5{
+    height: 700px;
+  }
+  #t6{
+    height: 280px;
+  }
+  #t7{
+    height: 320px;
+  }
+  #t8{
+    height: 320px;
+  }
+  #h_text{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+  }
+  #sub_text{
+    margin-top:0;
+    font-size: 0.3em;
+    text-align: center;
+    letter-spacing: -1px;
+   color:#828282;
+  }
+  .selet_form{
+   size:25px;
+  }
+  footer{
+   width: 100%;
+   height: 200px;
+   background-color: #272727;
+ }
+
+ #footer_text{
+  text-align: left;
+  color: white;
+  padding-top:3%;
+  float: left;
+  font-size: 0.2em;
+ }
+
+ object{
+  padding-left: 17%;
+
+ }
+  @media  screen and (min-width: 370px) and (max-width:414px){
+   #t3{
+     height:100px;
+   }
+   .button-1{
+     padding-top: 50%;
+     left: 43%;
+     width:200px;
+     height:70px;
+     border:2px solid #FE474B;
+     float:left;
+     text-align:center;
+     cursor:pointer;
+     position:relative;
+     box-sizing:border-box;
+     overflow:hidden;
+     margin:0 0 40px 0;
+   }
+
+   .button-1 a{
+     font-weight: bold;
+     font-family:arial;
+     font-size:1.3em;
+     color:#FE474B;
+     text-decoration:none;
+     line-height:70px;
+     transition:all .5s ease;
+     z-index:2;
+     position:relative;
+   }
+   .eff-1{
+     width:200px;
+     height:70px;
+     top:-2px;
+     right:-200px;
+     background:#FE474B;
+     position:absolute;
+     transition:all .3s ease;
+     z-index:1;
+   }
+   .button-1:hover .eff-1{
+     right:0;
+   }
+   .button-1:hover a{
+     color:#fff;
+   }
+
+   .btn-1::after {
+     height: 0;
+     left: 0;
+     top: 0;
+     width: 100%;
+   }
+
+   .btn-1:hover:after {
+     height: 100%;
+   }
+
+}
